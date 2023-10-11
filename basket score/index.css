@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7/digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digital-7 Italic';
+    src: url('digital-7/digital-7 (italic).ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Digital-7 Mono';
+    src: url('digital-7/digital-7 (mono).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digital-7 Mono Italic';
+    src: url('digital-7/digital-7 (mono italic).ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.title {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: 700;
+    margin-top: 68px; 
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.box {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 27px;
+}
+
+.score-number {
+    color: #F94F6D;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    padding-top: 10px; 
+}
+
+.home-point {
+    display: flex;
+    justify-content: space-between;
+}
+.rectangle {
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    font-size: 20px;
+    font-family: 'Digital-7', sans-serif;
+    font-weight: 400;   
+}
+
+.reset-section {
+    background: #1B244A;
+    margin-top: -20px;
+    width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+
+
+#reset-button {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: 50px;
+    border: 2px solid #6B7280;
+    background: #F3F4F6;
+    border-radius: 10px; 
+}
